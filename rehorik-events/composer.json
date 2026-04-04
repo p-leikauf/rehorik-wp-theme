@@ -1,0 +1,13 @@
+{
+    "name": "rehorik/rehorik-events",
+    "description": "Event- und Ticket-Verwaltung für Rehorik auf WooCommerce-Basis",
+    "type": "wordpress-plugin",
+    "license": "proprietary",
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "optimize-autoloader": true
+    }
+}

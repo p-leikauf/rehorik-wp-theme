@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Rehorik Events – Admin Styles
+   ========================================================================== */
+
+/* ---- Event-Details Meta-Box ---- */
+.reh-event-details-table th {
+    width: 220px;
+    font-weight: 600;
+    padding-right: 16px;
+}
+
+.reh-event-details-table td input[type="text"],
+.reh-event-details-table td input[type="number"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* ---- Dates Meta-Box ---- */
+#reh-dates-table {
+    margin-bottom: 20px;
+}
+
+#reh-dates-table th,
+#reh-dates-table td {
+    vertical-align: middle;
+}
+
+#reh-dates-table .button-small {
+    font-size: 11px;
+    line-height: 1.4;
+    padding: 2px 8px;
+}
+
+.reh-date-row-past {
+    opacity: 0.6;
+}
+
+/* ---- Attendee List Page ---- */
+.reh-attendee-list-wrap .reh-attendee-filter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.reh-attendee-list-wrap #reh-date-select {
+    min-width: 300px;
+}
+
+.reh-attendee-table th,
+.reh-attendee-table td {
+    vertical-align: middle;
+}
+
+.reh-attendee-table .reh-checked-in-label {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.reh-attendee-table tr.checked-in {
+    background-color: #e8f5e9;
+}
+
+.reh-checkin-btn {
+    white-space: nowrap;
+}
